@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stalls"
+version = "0.1.0"
+description = "Stalled Situation by Winston Brown"
+authors = [{name = "Winston Brown"}]
+requires-python = ">=3.10"
+dependencies = ["pytest>=7.0"]
